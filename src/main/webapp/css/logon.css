@@ -1,0 +1,284 @@
+@media(max-width:600px) {
+    .responsive #promotext {
+        display: none !important
+    }
+}
+
+@media(max-width:500px) {
+    body .responsive {
+        background-color: #fafbfc !important;
+        overflow-x: hidden
+    }
+    .responsive #databaseform {
+        border: none !important
+    }
+    .responsive div.singin_info {
+        width: 350px !important;
+        left: 30px !important;
+        top: -5px !important;
+        margin-top: -80px !important
+    }
+}
+
+@media(max-width:330px) {
+    .responsive #content {
+        zoom: 85%
+    }
+}
+
+@media(max-height:560px) {
+    .responsive #signintext {
+        display: none !important
+    }
+    .responsive #content {
+        top: 50px !important;
+        margin-top: 0 !important
+    }
+}
+
+body {
+    background-color: #fafbfc;
+    font-family: 'Open Sans', Arial, sans-serif;
+    letter-spacing: 0;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    font-size: 18px
+}
+
+div.singin_info {
+    font-size: 9pt;
+    font-weight: bold;
+    position: relative;
+    top: -20px;
+    width: 500px;
+    left: -40px;
+    margin-top: -50px
+}
+
+.input span {
+    margin-left: 45px;
+    margin-top: 15px
+}
+
+input[type=text],
+input[type=password],
+select {
+    font-size: 18px
+}
+
+input[type=text],
+input[type=password] {
+    height: 53px;
+    width: 336px;
+    color: #283644;
+    display: block;
+    margin-left: 35px;
+    position: relative;
+    padding-left: 10px
+}
+
+#database,
+#selectdatabase,
+#jobtypeid {
+    padding-left: 30px;
+    height: 43px;
+    width: 225px;
+    color: #283644;
+    border-radius: 4px;
+    background-color: #f5f7fa;
+    margin-left: 0;
+    border: solid 1px #a5a5a5
+}
+
+#database {
+    width: 190px
+}
+
+.topinput {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: solid 1px #a5a5a5
+}
+
+.bottominput {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: solid 1px #a5a5a5;
+    border-top: 0
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 440px;
+    width: 420px;
+    margin-left: -210px;
+    margin-top: -220px;
+    text-align: center
+}
+
+#databaseform {
+    border: solid 1px #b7b4b1;
+    border-radius: 10px;
+    text-align: center;
+    min-height: 385px;
+    height: auto;
+    margin-top: 25px;
+    background-color: #fff
+}
+
+#buttonform {
+    text-align: center;
+    height: auto;
+    margin-top: 25px
+}
+
+header {
+    max-height: 55px;
+    height: 55px;
+    padding-left: 15px;
+    padding-right: 10px;
+    background-color: #255d92;
+    line-height: 55px;
+    width: 100%
+}
+
+#signintext,
+#selecteddatabase {
+    display: inline;
+    font-size: 24px;
+    color: #135074;
+    line-height: 28.8px;
+    font-weight: 700
+}
+
+#promotext {
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    float: right
+}
+
+#logoimage,
+#applicationimage,
+#applicationtitle {
+    display: inline-block;
+    float: left;
+    line-height: 55px;
+    height: 55px;
+    color: #fff
+}
+
+#applicationimage {
+    line-height: 50px;
+    height: 50px
+}
+
+#applicationimage,
+#applicationtitle {
+    padding-left: 20px
+}
+
+#logoimage img,
+#applicationimage img {
+    max-height: 50px;
+    vertical-align: middle
+}
+
+#footerdiv,
+#databasediv,
+#jobtyperow {
+    margin-left: 35px;
+    margin-right: 35px;
+    height: 70px
+}
+
+.passwordchange #footerdiv {
+    padding-top: 30px
+}
+
+#databasediv,
+#jobtyperow {
+    padding-top: 30px
+}
+
+#databaselabel,
+#forgetpassdiv {
+    padding-top: 30px;
+    float: left;
+}
+
+#databaselabel {
+    font-size: 18px
+}
+
+#databasecontainer,
+#submitdiv {
+    padding-top: 30px;
+    float: right
+}
+
+#forgetpassdiv a {
+    font-size: 14px;
+    color: #283644;
+    text-decoration: none;
+    line-height: 16.8px
+}
+
+#returnpassdiv {
+    float: left
+}
+
+button {
+    font-Size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+    background-color: #005e8a;
+    border: solid 1px #adbdcb;
+    border-radius: 4px;
+    height: 53px;
+    min-width: 150px;
+    cursor: pointer
+}
+
+#errors {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    min-height: 22px;
+    margin-left: 5px;
+    margin-right: 5px
+}
+
+.error {
+    color: red
+}
+
+#db_info {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    min-height: 22px;
+    margin-left: 50px;
+    margin-right: 25px;
+    float: left;
+}
+
+.db {
+    color: rgb(19, 24, 90)
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle
+}
+
+#footerdiv {
+    padding-top: 40px;
+}
+
+#databaseform {
+    height: 300px;
+}
