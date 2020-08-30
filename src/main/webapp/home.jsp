@@ -21,12 +21,15 @@ pageEncoding="UTF-8"%>
             <div id="logoimage">
                 <img src="images/logo_white.png" title="LabVantage logo " />
             </div>
-
+			<div id="applicationtitle">
+                <img src="images/CognizantLogo400.jpg" style="width: 100px; height: 50px" alt="cognizant" />
+            </div>
             
         </header>
 
         <div id="content">
             <div id="viewportTest"></div>
+			
 
             <section id="signintext">Sign into LabVantage</section>
 
