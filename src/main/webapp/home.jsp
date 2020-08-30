@@ -21,13 +21,13 @@ pageEncoding="UTF-8"%>
             <div id="logoimage">
                 <img src="images/logo_white.png" title="LabVantage logo " />
             </div>
-
+			
             
         </header>
-
+		<div id="envinfo">Development</div>
         <div id="content">
             <div id="viewportTest"></div>
-			<div id="envinfo">Development</div>
+			
 
             <section id="signintext">Sign into LabVantage</section>
 
