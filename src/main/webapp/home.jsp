@@ -31,7 +31,7 @@ pageEncoding="UTF-8"%>
             <div id="viewportTest"></div>
 			
 
-            <section id="signintext">Sign into LabVantage</section>
+            <section id="signintext">Sign into LabVantage - Test</section>
 
             <section id="databaseform">
                 <div id="errors">
