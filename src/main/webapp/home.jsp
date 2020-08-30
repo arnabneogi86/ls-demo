@@ -27,6 +27,7 @@ pageEncoding="UTF-8"%>
 
         <div id="content">
             <div id="viewportTest"></div>
+			<div id="envinfo">Development</div>
 
             <section id="signintext">Sign into LabVantage</section>
 
